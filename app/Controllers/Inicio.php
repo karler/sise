@@ -10,6 +10,8 @@ class Inicio extends BaseController
     
     public function index()
     {
-        return view('plantilla/data');
+        echo view('plantilla/cabecera');
+        echo view('plantilla/contenido');
+        echo view('plantilla/pie');
     }
 }
